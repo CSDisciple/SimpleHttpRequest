@@ -25,7 +25,7 @@ public class  MakeHttpCalls{
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
-    JSONObject obj = new JSONObject(response.body());
+
     System.out.println(response.body());
    }
 }
